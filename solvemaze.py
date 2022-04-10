@@ -73,10 +73,11 @@ while(('').join(input).find('RR') != -1):
 
             #Check pattern 4 and replace
             replace_pattern4(i)
+
+    #Remove all instances of 'N' in list
     removeN()
 
 print("input: \t\t\t\t" + str_input)
-print("output: \t\t\t" + ('').join(input))
 print("output: \t\t\t" + ('').join(input).replace('N',''))
 print("expected_output: \t" + expected_output)
 if(('').join(input).replace('N','') == expected_output):
